@@ -94,7 +94,7 @@ i_Hex_tb <= x"B"; wait for 10 ns;
 assert (o_seg_n_tb = "0000011") report "b failed" severity failure;
 
 i_Hex_tb <= x"C"; wait for 10 ns;
-assert (o_seg_n_tb = "0101101") report "c failed" severity failure;
+assert (o_seg_n_tb = "0100111") report "c failed" severity failure;
 
 i_Hex_tb <= x"D"; wait for 10 ns;
 assert (o_seg_n_tb = "0100001") report "d failed" severity failure;
